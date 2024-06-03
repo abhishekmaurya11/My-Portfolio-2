@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">ABHISHEK PORTFOLIO WEBSITE</a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us At Linked In</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="home" class="home-section">
+        <img src="laptop.jpg" alt="Laptop Image" class="background-image">
+        <div class="overlay">
+            <div class="info">
+                <h1>Hi, I'm a Web Developer</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a last year BCA student from CU, I love coding, I love making frontend websites, and I am a JavaScript developer.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Services</h2>
+            <p>Frontend developer in HTML, CSS, and JavaScript languages and technologies.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can connect with me on <a href="https://www.linkedin.com/in/abhishek-maurya-5a4621188/" target="_blank">LinkedIn</a>.</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-overlay">
+            <p>Thank you for reading this page. Hope you love to work with us.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
